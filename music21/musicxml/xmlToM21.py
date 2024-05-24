@@ -3887,7 +3887,6 @@ class MeasureParser(XMLParserBase):
                     tech.preBend = True
                 if mxObj.find('release') is not None:
                         tech.release = int(mxObj.find('release').get('offset'))
-                    except TypeError:
                         # offset is not mandatory
                         tech.release = 0
             # TODO: <bend> attr: accelerate, beats, first-beat, last-beat, shape (4.0)
