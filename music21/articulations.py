@@ -541,6 +541,10 @@ class NailPizzicato(Pizzicato):
     '''
     pass
 
+
+class Mute(TechnicalIndication):
+    pass
+
 class FretIndication(TechnicalIndication):
     '''
     FretIndication indicates which fret of a string a note is played on.
